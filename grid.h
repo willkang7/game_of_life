@@ -13,6 +13,7 @@ class Grid {
   void setup(std::string filename); // Create the initial configuration.
   void step(); // Calculate the next generation.
   void print(); // Print the grid.
+  std::vector<std::vector<char>> getGrid(); // Get grid.
 };
 
 #endif

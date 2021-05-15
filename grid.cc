@@ -84,3 +84,7 @@ void Grid::print() {
     std::cout << std::endl;
   }
 }
+
+std::vector<std::vector<char>> Grid::getGrid() {
+  return grid;
+}

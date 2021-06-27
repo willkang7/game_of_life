@@ -14,6 +14,6 @@ int main() {
   for (int i = 0; i < 1000; ++i) {
     graphics.notify(g.getGrid());
   	g.step();
-  	usleep(200000);
+  	usleep(100000);
   }
 }
